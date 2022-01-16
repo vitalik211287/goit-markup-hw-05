@@ -132,7 +132,29 @@ section {
   letter-spacing: 0.02em;
   color: var(--h-color);
   transition: var(--transition);
+  position: relative;
+  
 }
+.header-link::after {
+ 
+background-color: hidden;
+  position: absolute;
+  
+} 
+
+.header-link:hover::after {
+      content:  '  ' ;
+    width: 100%;
+    height: 4px;
+  
+ background-color: var(--accent-color) ;
+left: 0;
+bottom: -32px;
+
+
+
+}
+
 .header-link:hover,
 .header-link:focus,
 .header-link:active {
@@ -547,6 +569,32 @@ section {
 
 /*portfolio*/
 
+
+ 
+ .tehnokriak-text {
+ display: flex;
+font-size: 18px;
+line-height: 1.56;
+letter-spacing: 0.03em;
+height: 100%;
+width: 100%;
+padding: 63px 24px 63px 24px;
+color: #FFFFFF;
+letter-spacing: 0.03em;
+background: rgba(33, 150, 243, 0.9);
+position: absolute;
+top: 0;
+transform: translateY(100%);
+transition: transform 250ms;
+ }
+ .container-item-img:hover .tehnokriak-text {
+     transform: translateY(0);
+ }
+
+ .container-item-img {
+ position: relative;
+  overflow: hidden;
+ }
 .service-menu {
   background-color: #ffffff;
 }
@@ -558,26 +606,27 @@ section {
   flex-basis: calc(100% / 3 - 30px);
   width: 370px;
   margin-bottom: 30px;
+ 
 }
 
-.all-title-item:hover {
+.all-title-item:hover  {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  transition: box-shadow, transform 2000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow, transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-item {
   display: flex;
   flex-direction: column;
   width: 370px;
-  min-height: ;
-  height: 110px;
+    height: 110px;
   padding: 24px 24px 24px 24px;
   background: var(--background-color);
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   box-sizing: border-box;
+  position: relative;
 }
 
 .list-menu {
@@ -639,4 +688,47 @@ section {
   line-height: 30px;
   letter-spacing: 0.03em;
   color: var(--paragrapf-color);
+}
+
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color:rgba(47, 48, 58, 0.4);
+    
+}
+
+.modal {
+    width: 528px;
+    min-height: 581px;
+    background-color: var(--background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: absolute;
+    bottom:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+}
+
+.modal-close {
+    width: 30px;
+height: 30px;
+background: var(--background-color);
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+right: 8px;
+top: 8px;
+
+}
+
+.vector-svg {
+   color: #000000;;
+    
 }
