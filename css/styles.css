@@ -65,6 +65,9 @@ section {
   padding-bottom: 94px;
 }
 /* header*/
+.current {
+    color: var(--accent-color);
+}
 .header-svg {
   margin-right: 10px;
 }
@@ -566,6 +569,9 @@ section {
 }
 
 /*portfolio*/
+.current {
+    color: var(--accent-color);
+}
 
 .tehnokriak-text {
   display: flex;
