@@ -258,6 +258,7 @@ button {
 .hero-btn {
   display: block;
   box-sizing: border-box;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -268,6 +269,7 @@ button {
   height: 56px;
   padding: 16px 32px 16px 32px;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -304,7 +306,7 @@ button {
 .icon-svg {
   fill: currentColor;
 }
-.container-svg{
+.container-svg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -313,9 +315,8 @@ button {
   height: 112px;
   background-color: var(--logo-color);
   border-radius: 4px;
-  border: 1px  solid #8e8f99;
+  border: 1px solid #8e8f99;
 }
-
 
 /*our_team*/
 
@@ -545,7 +546,6 @@ button {
 }
 
 .social-link-footer {
-  color: var(--h-color);
   width: 40px;
   height: 40px;
   display: flex;
@@ -553,6 +553,80 @@ button {
   justify-content: center;
   border-radius: 50%;
   background-color: var(--accent-color);
+  color: var(--h-color);
   transition: var(--transition);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* modal */
+
+/* modal backdrop */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(237, 18%, 22%, 0.4);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* modal */
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 408px;
+  min-height: 584px;
+  padding: 72px 24px 24px 24px;
+  background-color: var(--logo-color);
+  box-shadow: 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001f,
+    0px 2px 1px 0px #00000033;
+  border-radius: 4px;
+}
+
+.modal-btn {
+  position: absolute;
+  display: inline-block;
+  align-items: center;
+  bottom: 24px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.modal-title{
+color: var(--paragraph-color);
+text-align: center;
+}
+
+.modal-close-btn {
+  width: 30px;
+  height: 30px;
+  background: #e7e9fc;
+  border: 1px solid #0000001a;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  color: #000000;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover {
+  color: var(--accent-color);
+}
+
+.vector-svg {
+  fill: currentColor;
 }
