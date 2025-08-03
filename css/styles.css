@@ -564,10 +564,10 @@ button {
 
 /* footer form */
 
-.footer-form{
-display: flex;
-gap: 24px;
-width: 100%;
+.footer-form {
+  display: flex;
+  gap: 24px;
+  width: 100%;
 }
 
 .footer-field {
@@ -597,7 +597,7 @@ width: 100%;
 
 .footer-input {
   outline: none;
-   background-color: transparent;
+  background-color: transparent;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px 0px #00000026;
@@ -690,18 +690,19 @@ width: 100%;
 }
 
 .modal-close-btn {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 24px;
   height: 24px;
+  padding: 0;
   background: #e7e9fc;
   border: 1px solid #0000001a;
   border-radius: 50%;
   box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  right: 24px;
-  top: 24px;
   color: #000000;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
