@@ -696,6 +696,7 @@ button {
   bottom: 24px;
   right: 50%;
   transform: translateX(50%);
+  border: none;
 }
 
 .modal-title {
