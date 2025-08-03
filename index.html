@@ -454,25 +454,59 @@
         </p>
         <form class="modal-form" action="#">
           <div class="form-field">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <label class="form-label" for="name">Name</label>
+            <input class="form-input" type="text" name="name" id="name" />
+            <span class="input-container">
+              <svg class="modal-svg" width="12" height="12">
+                <use href="./images/icon-modal.svg#icon-name" />
+              </svg>
+            </span>
           </div>
           <div class="form-field">
-            <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone" />
+            <label class="form-label" for="phone">Phone</label>
+            <input class="form-input" type="tel" name="phone" id="phone" />
+            <span class="input-container">
+              <svg class="modal-svg" width="13" height="13">
+                <use href="./images/icon-modal.svg#icon-tel" />
+              </svg>
+            </span>
           </div>
           <div class="form-field">
-            <label for="mail">Email</label>
-            <input type="email" name="mail" id="mail" />
+            <label class="form-label" for="mail">Email</label>
+            <input class="form-input" type="email" name="mail" id="mail" />
+            <span class="input-container">
+              <svg class="modal-svg" width="15" height="12">
+                <use href="./images/icon-modal.svg#icon-mail" />
+              </svg>
+            </span>
           </div>
-          <label for="textarea" class="textarea-label">Comment</label>
-          <textarea
-            name="textarea"
-            class="form-textarea"
-            id="textarea"
-            rows="10"
-            placeholder="Text input"
-          ></textarea>
+          <div class="form-field">
+            <label class="form-label" for="textarea" class="textarea-label"
+              >Comment</label
+            >
+            <textarea
+              name="textarea"
+              class="form-textarea"
+              id="textarea"
+              rows="10"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <input
+            type="checkbox"
+            name="policy"
+            id="policy"
+            class="policy-check visually-hidden"
+          />
+          <label class="check-text form-label" for="policy"
+            ><span>
+              <svg class="policy-icon" width="16" height="15">
+                <use href="./images/victory.svg#icon--" />
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a href="#" class="check-text-link">Privacy Policy</a>
+          </label>
         </form>
         <button type="submit" class="hero-btn modal-btn">Send</button>
         <button class="modal-close-btn" data-modal-close>
