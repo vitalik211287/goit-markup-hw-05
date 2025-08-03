@@ -445,6 +445,36 @@
             </li>
           </ul>
         </div>
+        <div class="footer-field">
+          <form class="footer-form" action="#">
+            <div class="label-input-container">
+              <label class="footer-label" for="email"
+                >Subscribe</label
+              >
+              <input
+                class="footer-input"
+                type="email"
+                id="email"
+                placeholder="E-mail"
+                name="email-foot"
+              />
+            </div>
+            <div class="footer-btn-container">
+              <input
+                type="submit"
+                value="Subscribe"
+                class="hero-btn footer-btn"
+                id="#"
+                name="submit-btn"
+              />
+              <span class="icon-send-container">
+                <svg class="icon-send" width="24" height="20">
+                  <use href="./images/icon-send.svg#icon-icon-send" />
+                </svg>
+              </span>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -508,7 +538,9 @@
             <a href="#" class="check-text-link">Privacy Policy</a>
           </label>
         </form>
-        <button type="submit" class="hero-btn modal-btn">Send</button>
+        <button type="submit" class="hero-btn modal-btn" data-modal-close>
+          Send
+        </button>
         <button class="modal-close-btn" data-modal-close>
           <svg class="vector-svg" width="11" height="11">
             <use href="./images/vector-sptite.svg#icon-Vector" />
