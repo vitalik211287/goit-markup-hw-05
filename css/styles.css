@@ -685,7 +685,7 @@ button {
 }
 
 .modal-title {
-  color: var(--paragraph-color);
+  color: var(--h-color);
   text-align: center;
 }
 
@@ -704,15 +704,24 @@ button {
   border-radius: 50%;
   box-sizing: border-box;
   color: #000000;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover {
-  color: var(--accent-color);
+  color: #404bbf;
+  border: none;
+}
+
+.modal-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+  color: #ffffff;
 }
 
 .vector-svg {
   fill: currentColor;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* form */
@@ -750,6 +759,7 @@ button {
 }
 
 .form-label {
+  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
