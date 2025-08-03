@@ -806,18 +806,19 @@ textarea {
   transform: var(--transition);
 }
 
-.input-container {
-  display: flex;
-  align-items: center;
+.input-icon {
   position: absolute;
-  top: 23%;
+  /* display: flex;
+  align-items: center; */
+
+  top: 50%;
   left: 16px;
   transform: translateY(-50%);
   /* margin-left: 3px; */
   /* width: 18px;
   height: 24px; */
   color: var(--h-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
   transform: var(--transition);
   .form-input:focus + .input-container {
