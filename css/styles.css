@@ -732,6 +732,9 @@ button {
 
 .form-field {
   position: relative;
+}
+
+.form-container {
   margin-bottom: 8px;
 }
 
