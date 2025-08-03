@@ -776,6 +776,9 @@ button {
 }
 
 /* textarea */
+.textarea-container{
+  margin-bottom: 16px;
+}
 
 textarea {
   width: 100%;
@@ -815,7 +818,7 @@ textarea {
 
   top: 50%;
   left: 16px;
-  transform: translateY(-50%);
+  transform: translateY(-50%); 
   /* margin-left: 3px; */
   /* width: 18px;
   height: 24px; */
