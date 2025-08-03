@@ -564,6 +564,12 @@ button {
 
 /* footer form */
 
+.footer-form{
+display: flex;
+gap: 24px;
+width: 100%;
+}
+
 .footer-field {
   position: relative;
   width: 453px;
@@ -593,24 +599,24 @@ button {
 
 .footer-input {
   outline: none;
-  background: var(--h-color);
+   background-color: transparent;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
   box-shadow: 0px 4px 4px 0px #00000026;
   border-radius: 4px;
-  width: 263px;
+  width: 264px;
   height: 40px;
   padding: 16px;
   font-size: 12px;
-  font-family: Roboto;
   font-weight: 400;
   font-style: Regular;
   line-height: 2;
+  letter-spacing: 0.04em;
   color: #ffffff;
 }
 
-.label-input-container input::placeholder {
+.footer-label input::placeholder {
   color: #ffffff;
 }
 
@@ -624,11 +630,14 @@ button {
 /* footer-btn */
 
 .footer-btn {
-  border: none;
-  width: 165px;
+  /* border: none; */
+  min-width: 165px;
   height: 40px;
-  padding: 8px 64px 8px 24px;
+  padding: 8px 24px 8px 24px;
   background-color: var(--accent-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   font-weight: bold;
@@ -636,7 +645,7 @@ button {
   line-height: 1.88px;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+
   margin: 0; */
   position: relative;
 }
