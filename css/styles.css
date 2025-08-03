@@ -806,7 +806,7 @@ textarea {
   display: flex;
   align-items: center;
   position: absolute;
-  top: 67%;
+  top: 50%;
   left: 16px;
   transform: translateY(-50%);
   margin-left: 3px;
