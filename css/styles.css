@@ -714,11 +714,11 @@ button {
   border: none;
 }
 
-/* .modal-close-btn:focus {
+.modal-close-btn:hover {
   background-color: #404bbf;
   border: none;
   color: #ffffff;
-} */
+}
 
 .vector-svg {
   fill: currentColor;
