@@ -795,13 +795,13 @@ textarea {
   padding: 8px 16px;
   resize: none;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .form-textarea {
   resize: none;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 10px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-textarea:focus {
@@ -847,6 +847,6 @@ textarea {
   fill: transparent;
 }
 
-.check-text-link{
-  color:var(--accent-color)
+.check-text-link {
+  color: var(--accent-color);
 }
