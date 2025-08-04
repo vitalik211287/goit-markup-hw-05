@@ -846,3 +846,7 @@ textarea {
   justify-content: center;
   fill: transparent;
 }
+
+.check-text-link{
+  color:var(--accent-color)
+}
