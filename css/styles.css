@@ -861,15 +861,25 @@ textarea {
   cursor: pointer;
 }
 
-/* .policy-icon {
+.policy-icon {
   fill: transparent;
-} */
-
-.policy-check:checked + label .checkbox-span{
+}
+/* 
+.policy-check:checked + .check-text .checkbox-span{
   border: none;
   background-color: #404bbf;
 }
 
-.policy-check:checked + label .policy-icon {
+.policy-check:checked + .check-text .policy-icon {
   fill:  #F4F4FD;
+} */
+
+input[type=checkbox]:checked + label .checkbox-span {
+  background-color:  var(--focus-color);
+  border: none;
+  fill: var(--logo-color);
+}
+
+input[type=checkbox]:checked + label .checkbox-span .policy-icon  {
+  fill:  var(--logo-color);;
 }
