@@ -828,21 +828,21 @@ textarea {
   fill: transparent;
 }
 
-.check-text-link {
+/* .check-text-link {
   color: var(--accent-color);
-}
+} */
 
 .check-text-link {
 color: var(--accent-color);
 margin-left: 2px;
     }
 
-.check-text {
+/* .check-text {
 display: flex;
 align-items: center;
 margin-left: 12px;
 
-}
+} */
 
     /* .check-text  span{
     width: 16px;
