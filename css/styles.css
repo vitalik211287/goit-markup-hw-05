@@ -837,12 +837,12 @@ color: var(--accent-color);
 margin-left: 2px;
     }
 
-/* .check-text {
+.check-text {
 display: flex;
 align-items: center;
 margin-left: 12px;
 
-} */
+}
 
     /* .check-text  span{
     width: 16px;
@@ -863,7 +863,7 @@ margin-left: 12px;
     fill: transparent;
     }
 
-    .policy-check:checked + .check-text span {
+    .policy-check:checked + .checkbox-span {
     border: none;
     background-color:  #404bbf;
     /* fill: #F4F4FD */
