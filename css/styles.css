@@ -866,10 +866,11 @@ margin-left: 12px;
     .policy-check:checked + .check-text span {
     border: none;
     background-color:  #404bbf;
+    /* fill: #F4F4FD */
     }
 
      .policy-check:checked ~ .check-text .policy-icon {
-    fill: #FFFFFF;
+    fill: #F4F4FD;
      }
 
 .modal-btn {
