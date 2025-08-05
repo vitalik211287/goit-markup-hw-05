@@ -865,11 +865,11 @@ textarea {
   fill: transparent;
 } */
 
-input:checked + .check-text .checkbox-span{
+.policy-check:checked + .checkbox-span{
   border: none;
   background-color: #404bbf;
 }
 
-input:checked + .check-text .policy-icon {
+.policy-check:checked + .checkbox-span .policy-icon {
   fill:  #F4F4FD;
 }
