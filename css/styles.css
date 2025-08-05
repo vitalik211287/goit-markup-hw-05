@@ -852,8 +852,8 @@ textarea {
 }
 
 .check-text {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   /* margin-left: 12px; */
 }
 
