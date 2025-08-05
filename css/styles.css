@@ -826,6 +826,7 @@ textarea {
   align-items: center;
   justify-content: center;
   fill: transparent;
+ margin-right: 7px;
 }
 
 /* .check-text-link {
