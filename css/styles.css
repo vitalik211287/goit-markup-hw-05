@@ -861,9 +861,9 @@ textarea {
   cursor: pointer;
 }
 
-.policy-icon {
+/* .policy-icon {
   fill: transparent;
-}
+} */
 
 .policy-check:checked + .check-text .checkbox-span {
   border: none;
