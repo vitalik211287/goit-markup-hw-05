@@ -832,6 +832,46 @@ textarea {
   color: var(--accent-color);
 }
 
+.check-text-link {
+color: var(--accent-color);
+margin-left: 2px;
+    }
+
+.check-text {
+display: flex;
+align-items: center;
+margin-left: 12px;
+
+}
+
+    /* .check-text  span{
+    width: 16px;
+    height: 15px;   
+    border-radius: 2px;
+    border: 2px solid var(--h-color);
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+        } */
+
+    .check-text:hover  span {
+        cursor: pointer;
+    }
+    
+ 
+    .policy-icon {
+    fill: transparent;
+    }
+
+    .policy-check:checked + .check-text span {
+    border: none;
+    background-color: var(--accent-color);
+    }
+
+     .policy-check:checked ~ .check-text .policy-icon {
+    fill: #FFFFFF;
+     }
+
 .modal-btn {
   position: absolute;
   display: inline-block;
