@@ -793,7 +793,7 @@ textarea {
   padding: 8px 16px;
   resize: none;
   outline: transparent;
-  
+
   /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .form-textarea {
@@ -844,8 +844,32 @@ textarea {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .check-text-link {
   color: var(--accent-color);
+}
+
+.check-text {
+  display: flex;
+  align-items: center;
+  /* margin-left: 12px; */
+}
+
+.check-text:hover .checkbox-span {
+  cursor: pointer;
+}
+
+.policy-icon {
+  fill: transparent;
+}
+
+.policy-check:checked + .check-text .checkbox-span {
+  border: none;
+  background-color: #404bbf;
+}
+
+.policy-check:checked ~ .check-text .policy-icon {
+  fill:  #F4F4FD;
 }
