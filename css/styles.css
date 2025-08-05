@@ -870,6 +870,6 @@ input:checked + .check-text .checkbox-span{
   background-color: #404bbf;
 }
 
-.policy-check:checked + .check-text .policy-icon {
+input:checked + .check-text .policy-icon {
   fill:  #F4F4FD;
 }
