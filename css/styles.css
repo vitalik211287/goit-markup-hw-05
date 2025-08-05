@@ -865,7 +865,7 @@ margin-left: 12px;
 
     .policy-check:checked + .check-text span {
     border: none;
-    background-color: var(--accent-color);
+    background-color:  #404bbf;
     }
 
      .policy-check:checked ~ .check-text .policy-icon {
