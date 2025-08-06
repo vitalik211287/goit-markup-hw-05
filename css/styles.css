@@ -715,12 +715,17 @@ button {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
-  color: #ffffff;
+  /* color: #ffffff; */
   border: none;
 }
 
+.modal-close-btn:hover .vector-svg,
+.modal-close-btn:focus.vector-svg{
+  fill: #fff
+}
+
 .vector-svg {
-  fill: currentColor;
+  /* fill: currentColor; */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -870,7 +875,7 @@ textarea {
  
 }
 
-input:checked + .check-text .checkbox-span{
+.policy-check:checked + .check-text .checkbox-span{
   border: none;
   background-color: #404bbf;
   fill: #F4F4FD;
