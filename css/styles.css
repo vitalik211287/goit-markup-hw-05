@@ -870,7 +870,7 @@ textarea {
  
 }
 
-.policy-check:checked + .check-text .checkbox-span{
+input:checked + .check-text .checkbox-span{
   border: none;
   background-color: #404bbf;
   fill: #F4F4FD;
