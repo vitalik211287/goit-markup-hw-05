@@ -845,6 +845,7 @@ textarea {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+   fill: transparent;
 }
 
 .check-text-link {
@@ -862,19 +863,24 @@ textarea {
 }
 
 .policy-icon {
-  fill: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #fff;
+ 
 }
-/* 
+
 .policy-check:checked + .check-text .checkbox-span{
   border: none;
   background-color: #404bbf;
+  fill: #F4F4FD;
 }
 
-.policy-check:checked + .check-text .policy-icon {
+/* .policy-check:checked + .check-text .policy-icon {
   fill:  #F4F4FD;
 } */
 
-input[type=checkbox]:checked + label .checkbox-span {
+/* input[type=checkbox]:checked + label .checkbox-span {
   background-color:  var(--focus-color);
   border: none;
   fill: var(--logo-color);
@@ -882,4 +888,4 @@ input[type=checkbox]:checked + label .checkbox-span {
 
 input[type=checkbox]:checked + label .checkbox-span .policy-icon  {
   fill:  var(--logo-color);;
-}
+} */
