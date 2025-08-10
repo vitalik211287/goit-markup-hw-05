@@ -712,9 +712,12 @@ button {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
-  color: #ffffff;
   border: none;
 }
+
+.modal-close-btn:hover, .vector-svg{
+  fill: #ffffff;
+} 
 
 
 .vector-svg {
