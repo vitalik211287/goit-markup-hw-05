@@ -720,7 +720,7 @@ button {
 }
 
 .modal .modal-close-btn:hover .vector-svg,
-.modal .modal-close-btn:focus.vector-svg{
+.modal .modal-close-btn:focus .vector-svg{
   fill: #fff
 }
 
