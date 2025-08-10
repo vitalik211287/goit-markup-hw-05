@@ -724,7 +724,7 @@ button {
   fill: #fff
 }
 
-.modal .modal-close-btn .vector-svg {
+.vector-svg {
   /* fill: currentColor; */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
