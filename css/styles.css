@@ -715,16 +715,16 @@ button {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
-  /* color: #ffffff; */
+  /* color:  #404bbf; */
   border: none;
 }
 
-.modal-close-btn:hover .vector-svg,
-.modal-close-btn:focus.vector-svg{
+.modal .modal-close-btn:hover .vector-svg,
+.modal .modal-close-btn:focus.vector-svg{
   fill: #fff
 }
 
-.vector-svg {
+.modal .modal-close-btn .vector-svg {
   /* fill: currentColor; */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
