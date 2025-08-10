@@ -715,9 +715,10 @@ button {
   border: none;
 }
 
-/* .modal-close-btn:hover, .vector-svg{
-  fill: #ffffff;
-}  */
+.modal-close-btn:hover .vector-svg,
+.modal-close-btn:focus .vector-svg{
+  fill: #fff;
+} 
 
 
 .vector-svg {
