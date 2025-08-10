@@ -707,11 +707,8 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .modal-close-btn:hover {
-  background-color: #404bbf;
-  border: none;
-  color: #ffffff;
-} */
+
+
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: #404bbf;
@@ -719,10 +716,6 @@ button {
   border: none;
 }
 
-/* .modal-close-btn:hover .vector-svg,
-.modal-close-btn:focus .vector-svg{
-  fill: #fff
-} */
 
 .vector-svg {
   fill: currentColor;
@@ -797,14 +790,11 @@ textarea {
   color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   resize: none;
-  outline: transparent;
-
-  /* transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  outline: transparent
 }
 .form-textarea {
   resize: none;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* margin-bottom: 10px; */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -850,18 +840,13 @@ textarea {
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
-   fill: transparent;
+  fill: transparent;
 }
 
 .check-text-link {
   color: var(--accent-color);
 }
 
-.check-text {
-  /* display: flex;
-  align-items: center; */
-  /* margin-left: 12px; */
-}
 
 .check-text:hover .checkbox-span {
   cursor: pointer;
@@ -872,25 +857,11 @@ textarea {
   align-items: center;
   justify-content: center;
   fill: #fff;
- 
 }
 
-.policy-check:checked + .check-text .checkbox-span{
+.policy-check:checked + .check-text .checkbox-span {
   border: none;
   background-color: #404bbf;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
 }
 
-/* .policy-check:checked + .check-text .policy-icon {
-  fill:  #F4F4FD;
-} */
-
-/* input[type=checkbox]:checked + label .checkbox-span {
-  background-color:  var(--focus-color);
-  border: none;
-  fill: var(--logo-color);
-}
-
-input[type=checkbox]:checked + label .checkbox-span .policy-icon  {
-  fill:  var(--logo-color);;
-} */
