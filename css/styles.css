@@ -416,6 +416,7 @@ button {
   display: flex;
   column-gap: 24px;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .portfolio-card {
